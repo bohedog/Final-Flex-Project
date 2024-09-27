@@ -1,0 +1,75 @@
+.woman {
+    height: 200px;
+    width: 400px;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: 'Roboto';
+}
+
+.headercontainer {
+    display: flex;
+    background-color: #1F2937;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.header {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 560px;
+}
+
+.headerlinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.content {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 60px;
+}
+
+.lineup {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 200px;
+    width: 400px;
+}
+
+h1 {
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.lineup p {
+    margin: 0;
+}
+
+.Signup {
+    background-color: #3882F6;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    margin-top: 20px;
+}
